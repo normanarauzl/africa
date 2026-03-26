@@ -14,7 +14,7 @@ struct MainView: View {
                 ContentView()
             }
             
-            Tab("Wach", systemImage: "play.rectangle") {
+            Tab("Watch", systemImage: "play.rectangle") {
                 VideoListView()
             }
             
@@ -22,7 +22,7 @@ struct MainView: View {
                 MapView()
             }
             
-            Tab("Galery", systemImage: "photo") {
+            Tab("Gallery", systemImage: "photo") {
                 GalleryView()
             }
         }
